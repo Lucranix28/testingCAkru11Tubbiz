@@ -23,14 +23,7 @@ for i in range(link_count):
 print ( zoneMap )
 # game loop
 #fungsi
-def cek [x,y] :
-    array_cek = zoneMap[x]
-    co = False 
-    for i in range (len(array_check)):
-        if array_check[i]==y :
-            co=True 
-            break 
-    return co
+
 pod_kita = [0 for i in range (zone_count)] 
 while True:  
     my_platinum = int(input())  # your available Platinum
