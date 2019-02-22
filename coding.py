@@ -15,7 +15,7 @@ for i in range(zone_count):
     zone_id, platinum_source = [int(j) for j in input().split()]
 
 # Array of array zone yang terhubung
-zoneMap = [[] for i in range (link_count)]
+zoneMap = [[] for i in range (zone_count)]
 for i in range(link_count):
     zone_1, zone_2 = [int(j) for j in input().split()]
     zoneMap[zone_1].append(zone_2)
